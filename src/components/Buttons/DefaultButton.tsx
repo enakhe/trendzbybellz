@@ -20,7 +20,7 @@ const DefaultButton = ({
   return (
     <Fragment>
       <button
-        type={type}
+        type="button"
         text={text}
         className={`rounded-sm bg-[${bgColor}] text-[${textColor}] hover:bg-[${hoverColor}] font-medium text-sm px-5 py-2.5`}
         disabled={isDisabled}
