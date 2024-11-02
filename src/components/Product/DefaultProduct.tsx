@@ -7,7 +7,7 @@ import productImg from "../../assets/product1.jpg";
 const DefaultProduct = () => {
   return (
     <Fragment>
-      <div className="w-full mx-5 bg-white shadow-sm rounded-md overflow-hidden pb-20 my-5">
+      <div className="max-w-xs mx-auto bg-white shadow-md rounded-lg pb-5 overflow-hidden mb-80 my-5">
         <div className="relative">
           <img
             src={productImg}
@@ -23,10 +23,10 @@ const DefaultProduct = () => {
         </div>
 
         <div className="p-4">
-          <h3 className="text-md font-medium text-gray-900">
+          <h3 className="text-lg font-medium text-gray-900">
             Customized Belts
           </h3>
-          <p className="text-md font-semibold text-gray-800 mt-2">
+          <p className="text-lg font-semibold text-gray-800 mt-2">
             &#8358; 2,780.00
           </p>
 

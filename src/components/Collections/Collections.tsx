@@ -4,9 +4,8 @@ import { Swiper, SwiperSlide} from "swiper/react"
 
 import "swiper/css"
 import "swiper/css/pagination"
-import 'swiper/css/free-mode'
 
-import {FreeMode, Pagination} from "swiper/modules";
+import {Pagination} from "swiper/modules";
 
 const Collections = () => {
   return (
@@ -16,11 +15,12 @@ const Collections = () => {
           <h1 className="text-2xl text-center">Check Out Our Collections</h1>
         </div>
       </div>
-      <div className="products">
+      <div className="products p-5">
         <Swiper
-          slidesPerView={1}
+          slidesPerView={2}
           spaceBetween={10}
           pagination={{
+            dynamicBullets: true,
             clickable: true,
           }}
           breakpoints={{
@@ -37,9 +37,18 @@ const Collections = () => {
               spaceBetween: 50,
             },
           }}
-          freeMode={true}
-          modules={[FreeMode, Pagination]}
+          modules={[Pagination]}
+          className="mySwiper"
         >
+          <SwiperSlide>
+            <DefaultProduct />
+          </SwiperSlide>
+          <SwiperSlide>
+            <DefaultProduct />
+          </SwiperSlide>
+          <SwiperSlide>
+            <DefaultProduct />
+          </SwiperSlide>
           <SwiperSlide>
             <DefaultProduct />
           </SwiperSlide>
