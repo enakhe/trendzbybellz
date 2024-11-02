@@ -28,16 +28,16 @@ const Showcase = () => {
               <div className="grid gap-4 grid-cols-2">
                 <DefaultButton
                   type="button"
-                  bgColor="#D01B59"
+                  bgColor="#9B0A65"
                   textColor="#ffffff"
-                  hoverColor="#f9aofb"
+                  hoverColor="#D01B59"
                   isDisabled={true}
                   text="Shop Now"
                 />
 
                 <DefaultButton
                   type="button"
-                  bgColor="#D01B59"
+                  bgColor="#9B0A65"
                   textColor="#ffffff"
                   hoverColor="#f9aofb"
                   isDisabled={false}

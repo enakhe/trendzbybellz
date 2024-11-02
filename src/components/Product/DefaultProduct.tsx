@@ -7,7 +7,7 @@ import productImg from "../../assets/product1.jpg";
 const DefaultProduct = () => {
   return (
     <Fragment>
-      <div className="max-w-xs mx-auto bg-white shadow-md rounded-lg pb-5 overflow-hidden mb-80 my-5">
+      <div className="max-w-xs mx-auto bg-white shadow-md rounded-lg pb-5 overflow-hidden my-5">
         <div className="relative">
           <img
             src={productImg}
